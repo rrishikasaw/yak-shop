@@ -1,0 +1,37 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Yak Stock",
+    "dateExported": "2024-10-25T15:27:27.389Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cdbeb784-ff5e-4c28-8351-7ee9bf9a7c7a",
+            "colId": "f31b1186-92d0-444f-82c9-fb3f9fe055f8",
+            "containerId": "",
+            "name": "/stock/:day",
+            "url": "http://localhost:5000/yak-shop/stock/13",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-10-25T15:10:52.085Z",
+            "modified": "2024-10-25T15:15:16.952Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f1a480e3-da8f-4929-b1e8-102a38a6a760",
+            "colId": "f31b1186-92d0-444f-82c9-fb3f9fe055f8",
+            "containerId": "",
+            "name": "/herd/:day",
+            "url": "http://localhost:5000/yak-shop/herd/13",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-10-25T15:16:52.397Z",
+            "modified": "2024-10-25T15:17:21.836Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
